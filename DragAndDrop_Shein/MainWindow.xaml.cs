@@ -16,9 +16,6 @@ using System.Windows.Threading;
 
 namespace DragAndDrop_Shein
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public DispatcherTimer dispatcherTimer = new DispatcherTimer();
@@ -37,12 +34,12 @@ namespace DragAndDrop_Shein
 
         private void image_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            dispatcherTimer.Start();
         }
 
         private void image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            dispatcherTimer.Stop();
         }
     }
 }
