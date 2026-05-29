@@ -24,5 +24,15 @@ namespace DragAndDrop_Shein
         {
             InitializeComponent();
         }
+
+        private void image_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
